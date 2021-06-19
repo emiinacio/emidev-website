@@ -1,0 +1,27 @@
+nav {
+    margin: 10em 10em 20em 10em;
+}
+
+.nav__text {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+
+.nav__name p {
+    font-size: 5rem;
+}
+
+.nav__text h2 {
+    font-size: 8em;
+    color: aliceblue;
+    opacity: 80%;
+    font-family: 'Lobster';
+    font-weight: 700;
+}
+
+.nav__title p {
+    font-size: 2.5rem;
+    color: var(--pink);
+    font-weight: 600;
+}

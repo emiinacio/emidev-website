@@ -1,0 +1,141 @@
+/** SECTION WITH DESCRIPTION FOR ME**/
+section {
+    margin: 10em 10em;
+}
+
+.section__description{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section__image img {
+    width: 500px;
+    height: 600px;
+}
+
+.section__about {
+    padding: 0 5em;
+}
+
+.section__text h2{
+    font-size: 4.4rem;
+    color: var(--pink);
+    margin: 0;
+}
+
+.section__text h3{
+    font-size: 2.2rem;
+    color: var(--white);
+    margin: 0;
+}
+
+.section__description-text {
+    width: 30em;
+    font-size: 17px;
+}
+
+/** SECTION OF CARDS SKILLS**/
+
+.section__skills h2 {
+    font-size: 2rem;
+}
+
+.section__technologies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.section__cards  {
+    padding: 1rem;
+    width: 100px;
+    height: 70px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: var(--card);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.section__cards img{
+    width: 50px;
+}
+
+.section__cards  p {
+    font-size: 12px;
+    text-justify: auto;
+}
+
+.zoom {
+    transition: transform .5s; /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.1);
+    transition: 20ms;
+}
+
+.zoom:hover a {
+    color: var(--pink);
+    font-weight: 800;
+}
+
+
+/** SECTION OF PORTFOLIO PROJECTS**/
+.section__cards-projects {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards__projects {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.project{
+    background-color: var(--card);  
+    width: 20em;
+    height: 17em;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.cards__projects h2 {
+    color: var(--white);
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.cards__projects img {
+    width: 20em;
+    height: 10em;
+    padding: 0;
+    border-radius: 8px;
+}
+
+.project__p {
+    display: flex;
+    flex-direction: row;
+}
+
+.project__p p {
+    display: flex;
+    padding: 10px 20px 0px 0;
+    font-weight: 300;
+}
+
+.cards__projects h3 {
+    color: var(--white);
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.cards__projects a {
+    text-decoration: none;
+}
+
