@@ -25,6 +25,7 @@
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/section.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/modal.css">
   
 
   <meta name="theme-color" content="#fafafa">
@@ -32,198 +33,230 @@
 
 <body>
 
-  <!-- Add your site or application content here -->
+<!-- Add your site or application content here -->
   
-  <header>
-    <div id="header__link" >
-      <a href="#"><h3>Emidev.</h3></a>
-      <div class="header__menu">
+<header>
+  <div id="header__link" >
+    <div class="header__logo">
+      <a href="index.html"><h3>Emidev.</h3></a>
+    </div>
+    <div class="header__menu">
+      <a href="#modal-opened" class="menu" id="modal-closed"><img src="img/menu.svg" alt=""></a>
+    </div>
+    </div>
+  </div>
+</header>
+
+<nav>
+  <div class="nav__space">
+    <div class="nav__text"  >
+      <img src="img/pontos.svg" alt="" style="width: 500px;" data-aos="fade-up" data-aos-duration="3000">
+      <img src="img/laptop.png" alt="" style="width: 1000px; height: 600px; position: absolute; left: 750px;" data-aos="fade-down" data-aos-duration="1000">
+      <div class="nav__title" data-aos="fade-up">
+        <h2 data-aos="fade-right" data-aos-duration="2000" style="margin: 0">Emily Inácio</h2>
+        <h2 data-aos="fade-right" style="margin: 0; padding: 0;" data-aos-duration="3000"></h2>
+        <p data-aos="fade-right" data-aos="fade-right" data-aos-duration="2000">Developer Frontend and <br>
+          UI/UX Design</p>
+        <div class="nav__title-button" data-aos="fade-up-right" data-aos-duration="2000">
+          <a href="#section__description">About</a>
+          <a href="#">Projetos</a>
+        </div>
       </div>
     </div>
-  </header>
+  </div>
+</nav>
 
-  <nav>
-    <div class="nav__space">
-      <div class="nav__text"  >
-        <img src="img/pontos.svg" alt="" style="width: 500px;" data-aos="fade-up" data-aos-duration="3000">
-        <img src="img/laptop.png" alt="" style="width: 1000px; height: 600px; position: absolute; left: 700px;" data-aos="fade-down" data-aos-duration="1000">
-        <div class="nav__title" data-aos="fade-up">
-          <h2 data-aos="fade-right" data-aos-duration="2000" style="margin: 0">Emily Inácio</h2>
-          <h2 data-aos="fade-right" style="margin: 0; padding: 0;" data-aos-duration="3000"></h2>
-          <p data-aos="fade-right" data-aos="fade-right" data-aos-duration="2000">Developer Frontend and <br>
-            UI/UX Design</p>
-          <div class="nav__title-button" data-aos="fade-up-right" data-aos-duration="2000">
-            <a href="#">Sobre</a>
-            <a href="#">Projetos</a>
-          </div>
-        </div>
+<div class='icon-scroll'></div>
+
+
+<section class="section__description">
+  <div class="section__image" data-aos="zoom-out-up" data-aos-duration="2000">
+    <img src="img/IMG_20190630_092521_875 (2).jpg" alt="" >
+  </div>
+    <div class="section__about">
+      <div class="section__text">
+        <h2 data-aos="fade-right" data-aos-duration="2000">Emily Inácio</h2>
+        <h3 data-aos="fade-left" data-aos-duration="2000">Front-end Developer </h3>
       </div>
-    </div>
-  </nav>
-
-  <section class="section__description">
-    <div class="section__image" data-aos="zoom-out-up" data-aos-duration="2000">
-      <img src="img/IMG_20190630_092521_875 (2).jpg" alt="" >
-    </div>
-      <div class="section__about">
-        <div class="section__text">
-          <h2 data-aos="fade-right" data-aos-duration="2000">Emily Inácio</h2>
-          <h3 data-aos="fade-left" data-aos-duration="2000">Front-end Developer </h3>
-        </div>
-        <hr data-aos="fade-right" data-aos-duration="1000">
-        <div class="section__description-text" >
-          <p data-aos="left" ata-aos-duration="1000">
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-            <h2 data-aos="fade-left" data-aos-duration="1000">Skills</h2>
-        </div>
-        <div class="section__technologies">
-          <div class="section__cards zoom" data-aos="fade-up" data-aos-duration="1000">
-            <img src="/img/html5.png" alt="">
-            <p>HTML</p>
-          </div>
-          <div class="section__cards zoom" data-aos="fade-up" data-aos-duration="1500">
-            <img src="/img/css.png" alt="">
-            <p>CSS</p>
-          </div>
-          <div class="section__cards zoom" data-aos="fade-up" data-aos-duration="1100">
-            <img src="/img/javascript.png" alt="">
-            <p>JAVASCRIPT</p>
-          </div>
-          <div class="section__cards zoom" data-aos="fade-up" data-aos-duration="2000">
-            <img src="/img/angular.png" alt="">
-            <p>ANGULAR</p>
-          </div>
-        </div>
+      <hr data-aos="fade-right" data-aos-duration="1000">
+      <div class="section__description-text" >
+        <p data-aos="left" ata-aos-duration="1000">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          >Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <h2 data-aos="fade-left" data-aos-duration="1000">Skills</h2>
       </div>
-  </section>
-
-  <section class="section__cards-projects">
-    <div class="cards__projects zoom">
-
-      <div class="project " data-aos="fade-up" data-aos-duration="2000">
-        <div class="container">
-        </div>
-        <h2>Plottare</h2>
-        <div class="project__p">
-          <p>Bootstrap</p>
-          <p>CSS</p>
-          <P></P>
-        </div>
-        <h3>There are many variations of 
-          passages of Lorem Ipsum available, 
-          but the majority have suffered 
-          alteration in some form, 
-          by injected humour</h3>
-        <a href="https://github.com/emiinacio/plottare">Source Code</a>
-      </div>
-
-      <div class="project" data-aos="fade-up" data-aos-duration="3000">
-        <div class="container">
-        </div>
-        <h2>Casa Criativa</h2>
-        <div class="project__p">
+      <div class="section__technologies">
+        <div class="section__cards zoom" data-aos="fade-up" data-aos-duration="1000">
+          <img src="/img/html5.png" alt="">
           <p>HTML</p>
+        </div>
+        <div class="section__cards zoom" data-aos="fade-up" data-aos-duration="1500">
+          <img src="/img/css.png" alt="">
           <p>CSS</p>
-          <P>JS</P>
         </div>
-        <h3>There are many variations of 
-          passages of Lorem Ipsum available, 
-          but the majority have suffered 
-          alteration in some form, 
-          by injected humour</h3>
-        <a href="https://github.com/emiinacio/casacriativa-js-rocketseat">Source Code</a>
-      </div>
-
-      <div class="project" data-aos="fade-up" data-aos-duration="3000">
-        <div class="container">
+        <div class="section__cards zoom" data-aos="fade-up" data-aos-duration="1100">
+          <img src="/img/javascript.png" alt="">
+          <p>JAVASCRIPT</p>
         </div>
-        <h2>Ecoleta</h2>
-        <div class="project__p">
-          <p>HTML</p>
-          <p>CSS</p>
-          <P>JS</P>
+        <div class="section__cards zoom" data-aos="fade-up" data-aos-duration="2000">
+          <img src="/img/angular.png" alt="">
+          <p>ANGULAR</p>
         </div>
-        <h3>There are many variations of 
-          passages of Lorem Ipsum available, 
-          but the majority have suffered 
-          alteration in some form, 
-          by injected humour</h3>
-        <a href="https://github.com/emiinacio/ecoleta-js-rocketaseat">Source Code</a>
-      </div>
-
-      <div class="project" data-aos="fade-up" data-aos-duration="2000">
-        <div class="container">
-        </div>
-        <h2>Finans Website</h2>´
-        <div class="project__p">
-          <p>Bootstrap</p>
-          <p>CSS</p>
-          <P></P>
-        </div>
-        <h3>There are many variations of 
-          passages of Lorem Ipsum available, 
-          but the majority have suffered 
-          alteration in some form, 
-          by injected humour</h3>
-        <a href="https://github.com/emiinacio/Finans-js-05">Source Code</a>
-      </div>
-
-      <div class="project" data-aos="fade-up" data-aos-duration="3000">
-        <div class="container">
-        </div>
-        <h2>Online Calendar</h2>
-        <div class="project__p">
-          <p>HTML</p>
-          <p>CSS</p>
-          <P>JS</P>
-          <P>PHP</P>
-        </div>
-        <h3>There are many variations of 
-          passages of Lorem Ipsum available, 
-          but the majority have suffered 
-          alteration in some form, 
-          by injected humour</h3>
-        <a href="https://github.com/emiinacio/onlinecalendar-php-js-html">Source Code</a>
-      </div>
-
-      <div class="project" data-aos="fade-up" data-aos-duration="3000">
-        <div class="container">
-        </div>
-        <h2>Emidev Website</h2>
-        <div class="project__p">
-          <p>HTML</p>
-          <p>CSS</p>
-          <P>JS</P>
-        </div>
-        <h3>There are many variations of 
-          passages of Lorem Ipsum available, 
-          but the majority have suffered 
-          alteration in some form, 
-          by injected humour</h3>
-          <a href="#">Source Code</a>
       </div>
     </div>
-  </section>
+</section>
 
-  <footer>
-      <div class="footer__text">
-        <h1 data-aos="fade-right" data-aos-duration="3000">Follow.</h1>
-        <h1 data-aos="fade-left" data-aos-duration="3000"> Social</h1>
+
+<section class="section__cards-projects">
+  <div class="cards__projects zoom">
+
+    <div class="project " data-aos="fade-up" data-aos-duration="2000">
+      <div class="container">
       </div>
-      <div class="footer__icon">
-        <a href="#"><img src="img/linkedin.svg" alt=""></a>
-        <a href="#"><img src="img/github-sign.svg" alt=""></a>
-        <a href="#"><img src="img/instagram.svg" alt=""></a>
+      <h2>Plottare</h2>
+      <div class="project__p">
+        <p>Bootstrap</p>
+        <p>CSS</p>
+        <P></P>
       </div>
-    <div class="footer__create">
-      <p>Criado por Emily Inácio</p>
+      <h3>There are many variations of 
+        passages of Lorem Ipsum available, 
+        but the majority have suffered 
+        alteration in some form, 
+        by injected humour</h3>
+      <a href="https://github.com/emiinacio/plottare">Source Code</a>
     </div>
-  </footer>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="3000">
+      <div class="container">
+      </div>
+      <h2>Casa Criativa</h2>
+      <div class="project__p">
+        <p>HTML</p>
+        <p>CSS</p>
+        <P>JS</P>
+      </div>
+      <h3>There are many variations of 
+        passages of Lorem Ipsum available, 
+        but the majority have suffered 
+        alteration in some form, 
+        by injected humour</h3>
+      <a href="https://github.com/emiinacio/casacriativa-js-rocketseat">Source Code</a>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="3000">
+      <div class="container">
+      </div>
+      <h2>Ecoleta</h2>
+      <div class="project__p">
+        <p>HTML</p>
+        <p>CSS</p>
+        <P>JS</P>
+      </div>
+      <h3>There are many variations of 
+        passages of Lorem Ipsum available, 
+        but the majority have suffered 
+        alteration in some form, 
+        by injected humour</h3>
+      <a href="https://github.com/emiinacio/ecoleta-js-rocketaseat">Source Code</a>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="2000">
+      <div class="container">
+      </div>
+      <h2>Finans Website</h2>´
+      <div class="project__p">
+        <p>Bootstrap</p>
+        <p>CSS</p>
+        <P></P>
+      </div>
+      <h3>There are many variations of 
+        passages of Lorem Ipsum available, 
+        but the majority have suffered 
+        alteration in some form, 
+        by injected humour</h3>
+      <a href="https://github.com/emiinacio/Finans-js-05">Source Code</a>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="3000">
+      <div class="container">
+      </div>
+      <h2>Online Calendar</h2>
+      <div class="project__p">
+        <p>HTML</p>
+        <p>CSS</p>
+        <P>JS</P>
+        <P>PHP</P>
+      </div>
+      <h3>There are many variations of 
+        passages of Lorem Ipsum available, 
+        but the majority have suffered 
+        alteration in some form, 
+        by injected humour</h3>
+      <a href="https://github.com/emiinacio/onlinecalendar-php-js-html">Source Code</a>
+    </div>
+
+    <div class="project" data-aos="fade-up" data-aos-duration="3000">
+      <div class="container">
+      </div>
+      <h2>Emidev Website</h2>
+      <div class="project__p">
+        <p>HTML</p>
+        <p>CSS</p>
+        <P>JS</P>
+      </div>
+      <h3>There are many variations of 
+        passages of Lorem Ipsum available, 
+        but the majority have suffered 
+        alteration in some form, 
+        by injected humour</h3>
+        <a href="#">Source Code</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer__text">
+    <h1 data-aos="fade-right" data-aos-duration="3000">Follow.</h1>
+    <h1 data-aos="fade-left" data-aos-duration="3000"> Social</h1>
+  </div>
+  <div class="footer__icon">
+    <a href="https://www.linkedin.com/in/emiinacio/"><img src="img/linkedin.svg" alt=""></a>
+    <a href=""><img src="img/github-sign.svg" alt=""></a>
+  </div>
+  <div class="footer__create">
+    <p>Criado por Emily Inácio</p>
+  </div>
+</footer>
+
+<!-- MODAL-->
+<div class="modal-container" id="modal-opened">
+  <div class="modal">
+    <div class="modal__header">
+      <a href="#modal-closed" class="link-2 menu" id="modal-closed"><img src="img/menu.svg" alt=""></a>
+      <div><a href="index.html"><h3>Emidev</h3></a></div>
+    </div>
+    <div class="modal__nav">
+      <a href=""><h1>Projects</h1></a>
+      <a href=""><h1>Sobre</h1></a>
+    </div>
+    <div class="footer__text">
+      <h1 data-aos="fade-right" data-aos-duration="3000">Follow.</h1>
+      <h1 data-aos="fade-left" data-aos-duration="3000"> Social</h1>
+    </div>
+    <div class="footer__icon">
+      <a href="https://www.linkedin.com/in/emiinacio/"><img src="img/linkedin.svg" alt=""></a>
+      <a href=""><img src="img/github-sign.svg" alt=""></a>
+    </div>
+  </div>
+ 
+</div>
+
+
 
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->

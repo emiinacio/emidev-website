@@ -1,6 +1,6 @@
 /** SECTION WITH DESCRIPTION FOR ME**/
-section {
-    margin: 10em 10em;
+.section__description {
+    margin: 10em 10em 20em 10em;
 }
 
 .section__description{
@@ -84,6 +84,10 @@ section {
 
 
 /** SECTION OF PORTFOLIO PROJECTS**/
+
+.section__cards-projects {
+    margin: 10em 10em 10em 10em;
+}
 .section__cards-projects {
     display: flex;
     justify-content: space-evenly;
@@ -93,7 +97,6 @@ section {
     display: grid;
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
 }
 
 .project{
@@ -119,7 +122,7 @@ section {
 
 .project__p {
     display: flex;
-    flex-direction: row;
+    flex-direction: baseline;
 }
 
 .project__p p {

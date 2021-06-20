@@ -96,10 +96,8 @@ textarea {
   --card: #002B6B;
   --gradient: linear-gradient(30deg),
     var(--background) 70%,
-    var(--pink) 35%
-;
+    var(--pink) 35%;
 }
-
 
 body {
   background-color: var(--background);
